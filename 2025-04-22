@@ -1,0 +1,22 @@
+#%Module
+module-whatis	 "Loads GNU-parallel/2025-04-22 module.
+
+This module was build on Mon May 19 11:46:26 AM EDT 2025
+
+GNU parallel is a shell tool for executing jobs in parallel using one or more computers. For more details, see https://www.gnu.org/software/parallel/
+
+The script used to build this module can be found here: https://github.com/northeastern-rc-software-modules/GNU-parallel-20250422
+
+To load the module, type:
+module load GNU-parallel/2025-04-22
+"
+
+conflict	 GNU-parallel
+setenv     CUDA_HOME /shared/EL9/explorer/GNU-parallel/2025-04-22
+setenv     CUDA_PATH /shared/EL9/explorer/GNU-parallel/2025-04-22
+setenv     CUDA_VERSION 2025-04-22
+prepend-path	 PATH /shared/EL9/explorer/GNU-parallel/2025-04-22/bin
+prepend-path	 MANPATH /shared/EL9/explorer/GNU-parallel/2025-04-22/doc/man
+prepend-path	 LD_LIBRARY_PATH /shared/EL9/explorer/GNU-parallel/2025-04-22/lib64
+prepend-path	 CPATH /shared/EL9/explorer/GNU-parallel/2025-04-22/include
+prepend-path	 LIBRARY_PATH /shared/EL9/explorer/GNU-parallel/2025-04-22/lib64
